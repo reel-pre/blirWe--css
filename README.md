@@ -20,3 +20,19 @@ Here is how the cards look with normal and dark modifiers:
 
 Here is how the cards look with alert, warning and bliss modifiers:
 ![Example1](https://github.com/reel-pre/blirWe--css/blob/main/images/Example2.png)
+
+
+## bliCardDual 
+
+bliCardDual is the second set of cards in blirWe. It has two different section, which are the header(bliCardDual__header) and the content(bliCardDual__content).  
+Both the section goes into the "bliCardDual--X" class. Here X is the modifier names.  
+Right now 3 modifier names are supported for bliCardDual: normal, alert, warning.  
+Ex:  
+``` <div class="bliCardDual--alert">  ```</br>
+```<div class="bliCardDual__header">{...header} </div>  ```</br>
+```<div class="bliCardDual__content">{... content} </div> ```</br>
+```</div>```  
+Here is how the bliCardDual looks with different modifiers:  
+</br>
+![Example1](https://github.com/reel-pre/blirWe--css/blob/main/images/Example3.png)
+
