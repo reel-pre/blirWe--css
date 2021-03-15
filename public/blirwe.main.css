@@ -1,0 +1,111 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14.9px;
+    box-sizing: border-box;
+    font-weight: 600;
+   
+}
+
+
+.bliCard--normal{
+    margin:2%;
+    display:inline-block;
+    vertical-align: middle;
+    padding: 0.7%;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-shadow: 0px -1px 13px #000000;
+border-radius: 20px;
+width: 228px;
+height: 232px;
+}
+
+.bliCard--normal hr{
+    background-color:#000000 ;
+    border: 2px solid #000000;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.bliCard--alert{
+    margin:2%;
+    display:inline-block;
+    vertical-align: middle;
+    padding: 0.7%;
+background: #FFFFFF;
+border: 2px solid #FFD600;
+box-shadow: 0px -1px 13px #8A7400;
+border-radius: 20px;
+width: 228px;
+height: 232px;
+}
+
+.bliCard--alert hr{
+    background-color:#FFD600 ;
+    border: 2px solid #FFD600;
+box-shadow: 0px 0px 6px rgba(138, 116, 0, 0.5);
+}
+
+
+
+.bliCard--warning{
+    margin:2%;
+    display:inline-block;
+    vertical-align: middle;
+    padding: 0.7%;
+background: #FFFFFF;
+border: 2px solid #FF0000;
+box-shadow: 0px -1px 13px #7E0000;
+border-radius: 20px;
+width: 228px;
+height: 232px;
+}
+
+.bliCard--warning hr{
+    background-color:#FF0000;
+    border: 2px solid #FF0000;
+    box-shadow: 0px 0px 6px rgba(224, 21, 21, 0.5);
+}
+
+
+.bliCard--bliss{
+    margin:2%;
+    display:inline-block;
+    vertical-align: middle;
+    padding: 0.7%;
+background: #FFFFFF;
+border: 2px solid #0066FF;
+box-shadow: 0px -1px 13px #003A92;
+border-radius: 20px;
+width: 228px;
+height: 232px;
+}
+
+.bliCard--bliss hr{
+    background-color:#0066FF;
+    border: 2px solid #0066FF;
+    box-shadow: 0px 0px 6px rgba(0, 58, 146, 0.5);
+}
+
+
+
+
+.bliCard--dark{
+    margin:2%;
+    display:inline-block;
+    vertical-align: middle;
+    padding: 0.7%;
+    background: #2B2B2B;
+    color:white;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px -1px 13px #2B2B2B;
+border-radius: 20px;
+width: 228px;
+height: 232px;
+}
+
+.bliCard--dark hr{
+    background-color:#FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 0px 6px #FFFFFF;
+}
