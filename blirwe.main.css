@@ -1,221 +1,168 @@
-.bliCard--normal{
+.bliCard--normal,.bliCard--alert,.bliCard--warning,.bliCard--dark,.bliCard--bliss,.bliCardDual--normal,.bliCardDual--alert,.bliCardDual--warning{
     margin:2%;
     display:inline-block;
     vertical-align: middle;
     padding: 0.7%;
+    border-radius: 20px;
+    width: 228px;
+    height: 232px;
+    }
+    
+    .bliCardDual__header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -1px -1.5px;
+    left: 0px;
+    width: 228px;
+    height: 95px;
+    border-radius: 23px;
+    }
+
+    .bliCard--normal{
     background: #FFFFFF;
     border: 2px solid #000000;
     box-shadow: 0px -1px 13px #000000;
-border-radius: 20px;
-width: 228px;
-height: 232px;
-}
-
-.bliCard--normal hr{
+    }
+    
+    .bliCard--normal hr{
     background-color:#000000 ;
     border: 2px solid #000000;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
-}
-
-
-.bliCard--alert{
-    margin:2%;
-    display:inline-block;
-    vertical-align: middle;
-    padding: 0.7%;
-background: #FFFFFF;
-border: 2px solid #FFD600;
-box-shadow: 0px -1px 13px #8A7400;
-border-radius: 20px;
-width: 228px;
-height: 232px;
-}
-
-.bliCard--alert hr{
+    }
+    
+    
+    .bliCard--alert{
+    background: #FFFFFF;
+    border: 2px solid #FFD600;
+    box-shadow: 0px -1px 13px #8A7400;
+    }
+    
+    .bliCard--alert hr{
     background-color:#FFD600 ;
     border: 2px solid #FFD600;
-box-shadow: 0px 0px 6px rgba(138, 116, 0, 0.5);
-}
-
-
-
-.bliCard--warning{
-    margin:2%;
-    display:inline-block;
-    vertical-align: middle;
-    padding: 0.7%;
-background: #FFFFFF;
-border: 2px solid #FF0000;
-box-shadow: 0px -1px 13px #7E0000;
-border-radius: 20px;
-width: 228px;
-height: 232px;
-}
-
-.bliCard--warning hr{
+    box-shadow: 0px 0px 6px rgba(138, 116, 0, 0.5);
+    }
+    
+    
+    
+    .bliCard--warning{
+    background: #FFFFFF;
+    border: 2px solid #FF0000;
+    box-shadow: 0px -1px 13px #7E0000;
+    }
+    
+    .bliCard--warning hr{
     background-color:#FF0000;
     border: 2px solid #FF0000;
     box-shadow: 0px 0px 6px rgba(224, 21, 21, 0.5);
-}
-
-
-.bliCard--bliss{
-    margin:2%;
-    display:inline-block;
-    vertical-align: middle;
-    padding: 0.7%;
-background: #FFFFFF;
-border: 2px solid #0066FF;
-box-shadow: 0px -1px 13px #003A92;
-border-radius: 20px;
-width: 228px;
-height: 232px;
-}
-
-.bliCard--bliss hr{
+    }
+    
+    
+    .bliCard--bliss{
+    background: #FFFFFF;
+    border: 2px solid #0066FF;
+    box-shadow: 0px -1px 13px #003A92;
+    }
+    
+    .bliCard--bliss hr{
     background-color:#0066FF;
     border: 2px solid #0066FF;
     box-shadow: 0px 0px 6px rgba(0, 58, 146, 0.5);
-}
-
-
-
-
-.bliCard--dark{
-    margin:2%;
-    display:inline-block;
-    vertical-align: middle;
-    padding: 0.7%;
+    }
+    
+    
+    
+    
+    .bliCard--dark{
     background: #2B2B2B;
     color:white;
     border: 2px solid #FFFFFF;
     box-shadow: 0px -1px 13px #2B2B2B;
-border-radius: 20px;
-width: 228px;
-height: 232px;
-}
-
-.bliCard--dark hr{
-    background-color:#FFFFFF;
-    border: 2px solid #FFFFFF;
-    box-shadow: 0px 0px 6px #FFFFFF;
-}
-
-.bliCardDual--normal{
-    margin:2%;
-    display:inline-block;
-    vertical-align: middle;
+    }
+    
+    .bliCard--dark hr{
+        background-color:#FFFFFF;
+        border: 2px solid #FFFFFF;
+        box-shadow: 0px 0px 6px #FFFFFF;
+    }
+    
+    .bliCardDual--normal{
     padding: 0%;
-    width: 228px;
-    height: 232px;
     background: #FFFFFF;
     border: 2px solid #000000;  
     box-shadow: 0px -1px 13px #000000;
     border-radius: 23px;
-}
-
-.bliCardDual--normal hr{
-    background-color:#000000 ;
-    border: 2px solid #000000;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
-}
-
-
-.bliCardDual--normal .bliCardDual__header{
-display: flex;
-align-items: center;
-justify-content: center;
-margin: -1px -1.5px;
-left: 0px;
-width: 228px;
-height: 95px;
-background: #1b1b1b;
-color: white;
-border-radius: 23px;
-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
-}
-
-.bliCardDual--normal .bliCardDual__content{
-  margin: 2% 1.5%;
-}
-
-
-
-.bliCardDual--alert{
-    margin:2%;
-    display:inline-block;
-    vertical-align: middle;
+    }
+    
+    .bliCardDual--normal hr{
+        background-color:#000000 ;
+        border: 2px solid #000000;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    
+    .bliCardDual--normal .bliCardDual__header{
+    background: #1b1b1b;
+    color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    }
+    
+    .bliCardDual--normal .bliCardDual__content{
+      margin: 2% 1.5%;
+    }
+    
+    
+    
+    .bliCardDual--alert{
     padding: 0%;
-    width: 228px;
-    height: 232px;
     background: #FFFFFF;
     border: 2px solid #FFD600;
     box-shadow: 0px -1px 13px #8A7400;
     border-radius: 23px;
-}
-
-.bliCardDual--alert hr{
-    background-color:#FFD600 ;
-    border: 2px solid #FFD600;
-    box-shadow: 0px 0px 6px rgba(138, 116, 0, 0.5);
-}
-
-
-.bliCardDual--alert .bliCardDual__header{
-display: flex;
-align-items: center;
-justify-content: center;
-margin: -1px -1.5px;
-left: 0px;
-width: 228px;
-height: 95px;
-background: #FFD810;
-color: white;
-border-radius: 23px;
-box-shadow: 0px 4px 4px rgba(138, 116, 0, 0.5);
-}
-
-.bliCardDual--alert .bliCardDual__content{
-  margin: 2% 1.5%;
-}
-
-
-
-
-.bliCardDual--warning{
-    margin:2%;
-    display:inline-block;
-    vertical-align: middle;
+    }
+    
+    .bliCardDual--alert hr{
+        background-color:#FFD600 ;
+        border: 2px solid #FFD600;
+        box-shadow: 0px 0px 6px rgba(138, 116, 0, 0.5);
+    }
+    
+    
+    .bliCardDual--alert .bliCardDual__header{
+    background: #FFD810;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(138, 116, 0, 0.5);
+    }
+    
+    .bliCardDual--alert .bliCardDual__content{
+      margin: 2% 1.5%;
+    }
+    
+    
+    
+    
+    .bliCardDual--warning{
     padding: 0%;
-    width: 228px;
-    height: 232px;
     background: #FFFFFF;
     border: 2px solid #FF0000;
     box-shadow: 0px -1px 13px #7E0000;
     border-radius: 23px;
-}
-
-.bliCardDual--warning hr{
-    background-color:#FF0000;
-    border: 2px solid #FF0000;
-    box-shadow: 0px 0px 6px rgba(224, 21, 21, 0.5);
-}
-
-
-.bliCardDual--warning .bliCardDual__header{
-display: flex;
-align-items: center;
-justify-content: center;
-margin: -1px -1.5px;
-left: 0px;
-width: 228px;
-height: 95px;
-background: #FF0000;
-color: white;
-border-radius: 23px;
-box-shadow: 0px 4px 4px rgba(126, 0, 0, 0.5);
-}
-
-.bliCardDual--warning .bliCardDual__content{
-  margin: 2% 1.5%;
-}
+    }
+    
+    .bliCardDual--warning hr{
+        background-color:#FF0000;
+        border: 2px solid #FF0000;
+        box-shadow: 0px 0px 6px rgba(224, 21, 21, 0.5);
+    }
+    
+    
+    .bliCardDual--warning .bliCardDual__header{
+    background: #FF0000;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(126, 0, 0, 0.5);
+    }
+    
+    .bliCardDual--warning .bliCardDual__content{
+      margin: 2% 1.5%;
+    }
