@@ -6,7 +6,7 @@
     
     }
 
-    .bliCard--normal,.bliCard--alert,.bliCard--warning,.bliCard--dark,.bliCard--bliss,.bliCardDual--normal,.bliCardDual--alert,.bliCardDual--warning{
+    .bliCard--normal,.bliCard--alert,.bliCard--warning,.bliCard--dark,.bliCard--bliss,.bliCardDual--normal,.bliCardDual--alert,.bliCardDual--warning,.bliCardNote{
     margin:2%;
     display:inline-block;
     vertical-align: middle;
@@ -174,3 +174,108 @@
     .bliCardDual--warning .bliCardDual__content{
       margin: 2% 1.5%;
     }
+
+    .bliCardNote{
+    position: relative;
+    padding: 0%;
+    background: #ffffff;
+    border: 2px solid #FF0000;
+    box-shadow: 0px -1px 13px #7E0000;
+    border-radius: 23px;
+    z-index: 5;
+    }
+
+ 
+    .bliCardNote__header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 34px;
+    background: #FF0000; 
+    border-radius: 8px;
+    color:white;
+    margin: 12px auto;
+    box-shadow: 0px 0px 15px rgba(224, 16, 16, 0.26);
+    }
+
+    .bliCardNote__header::after{
+    position: absolute;
+    z-index: -1; 
+    content: "";
+    width: 0px;
+    height: 25px;
+    background: #FF0000; 
+    border-radius: 8px;
+    animation: right 2s ease-in-out 0.2s infinite alternate-reverse;
+    transform:translateX(29px);
+    transform:translateY(-4px);
+    }
+
+    .bliCardNote__header::before{
+        position: absolute;
+        z-index: -1; 
+        content: "";
+        width: 0px;
+        height: 8px;
+        background: #FF0000; 
+        border-radius: 8px;
+        animation: rightMoveDot 2s ease-in-out 0.2s infinite alternate-reverse;
+        transform:translateX(29px);
+        transform:translateY(12px);
+        }
+    
+
+ 
+    
+    .bliCardNote__content{
+    padding: 2% 2%;
+    }
+
+    .bliCardNote hr{
+    background-color:#FF0000;
+    border: 2px solid #FF0000;
+    box-shadow: 0px 0px 6px rgba(224, 21, 21, 0.5);
+    }
+
+
+    @keyframes right{
+        0%{
+            
+            
+        }
+        40%{
+            transform:translateX(55px) translateY(-5px);
+            
+            width:8px;
+        }
+    
+        100%{
+            transform:translateX(55px) translateY(-5px);
+            width:8px;
+        }
+    
+        }
+
+    @keyframes rightMoveDot{
+        0%{
+                
+                
+        }
+
+        20%{
+            transform:translateY(1px);
+        }
+
+        40%{
+                transform:translateX(55px) translateY(18px);
+                
+                width:8px;
+        }
+        
+        100%{
+            transform:translateX(55px) translateY(18px);
+            width:8px;
+        }
+        
+        }    
