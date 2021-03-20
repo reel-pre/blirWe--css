@@ -4,6 +4,9 @@
 
 blirWe aims to provide a huge variety of CSS card components.
 
+# Demo: <br/>
+![Demo GIF](https://github.com/reel-pre/blirWe--css/blob/main/images/animatedCard.gif)
+
 # Getting started
 #### For usage example you can also refer the public folder which contains the html and css files.
 
@@ -36,3 +39,13 @@ Here is how the bliCardDual looks with different modifiers:
 </br>
 ![Example1](https://github.com/reel-pre/blirWe--css/blob/main/images/Example3.png)
 
+
+
+## bliCardNote: <br/>
+![Demo GIF](https://github.com/reel-pre/blirWe--css/blob/main/images/animatedCard.gif)
+
+Html for using the above card:  
+``` <div class="bliCardNote">  ```</br>
+```<div class="bliCardNote__header">{...header} </div>  ```</br>
+```<div class="bliCardNote__content">{... content} </div> ```</br>
+```</div>```  
